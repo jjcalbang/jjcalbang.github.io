@@ -1,0 +1,84 @@
+a{
+	text-decoration:none;
+}
+body{
+	background-color:rgba(113, 92, 122, 0.2) !important;
+	overflow-x:hidden;
+	overflow-y: scroll;
+}
+img.logo{
+	height:70px;
+	width:200px;
+}
+.navbar{
+	background-color:rgb(113, 92, 122);
+	padding:0 !important;
+}
+.nav-link, a.nav-brand{
+	height:70px !important;
+	font-size:36px;
+	margin-right:10px;
+}
+hr{
+	margin:0 !important;
+}
+hr.thick{
+	border:1px solid black;
+}
+article.container{
+	background-color:rgba(113, 92, 122, 0.3);
+	border:0.5px;
+	border-style:none solid solid solid;
+	border-color:black;
+}
+ul.nav li a.nav-link:hover, a.nav-brand img:hover{
+	background-color:rgb(78, 63, 84);
+}
+ul.nav li a.nav-link{
+	color:black;
+}
+footer.container-fluid{
+	border:0.5px;
+	border-color:black;
+	border-style:solid none solid none;
+	background-color:rgba(146, 137, 150, 0.3);
+	margin-top:50px;
+	padding-top:20px;
+}
+div.center-small a{
+	text-align:center;
+	text-decoration:none;
+	letter-spacing:1.5px;
+	margin-top:10px;
+	margin-bottom:10px;
+	padding-left:50px;
+	padding-right:50px;
+	color:rgb(102, 82, 113);
+}
+div.center-small a:hover{
+	background-color:rgba(78, 63, 84, 0.1);
+}
+h1.content{
+	font-size:36px;
+	font-family:'Krona One','Helvetica';
+	text-align:center;
+	font-weight:initial !important;
+}
+h2.content, h3.content{
+	font-size:24px;
+	font-family:'Commissioner','Helvetica'; 
+	font-weight:700 !important;
+}
+p.content, li.content{
+	font-size:20px;
+	font-family:'Commissioner','Helvetica'; 
+	text-align:justify;
+	line-height:40px;
+}
+div#sponsors a img{
+	width:400px;
+	height:225px;
+}
+a#current, img#current{
+	background-color:rgba(78, 63, 84, 0.5);
+}
