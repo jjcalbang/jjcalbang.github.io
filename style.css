@@ -82,3 +82,6 @@ div#sponsors a img{
 a#current, img#current{
 	background-color:rgba(78, 63, 84, 0.5);
 }
+p#strike{
+	text-decoration:line-through;
+}
